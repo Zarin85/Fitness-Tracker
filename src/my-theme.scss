@@ -14,6 +14,7 @@ $my-theme: mat.define-light-theme((
    accent: $my-accent
  ),
  density: 0,
+ typography: mat.define-typography-config(),
 ));
 
 @include mat.all-component-themes($my-theme);
